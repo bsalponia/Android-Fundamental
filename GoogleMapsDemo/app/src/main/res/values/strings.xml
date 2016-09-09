@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Google Maps</string>
+
+    <string name="google_maps_key">AIzaSyBefaVAmdbD_ViwnysrtfWOEyjykzBzqco</string>
+
+
+    <string name="buttonOne">Get Location</string>
+
+    <string name="dialogTitle">Use Location? </string>
+    <string name="dialogMessage">This app wants to change your device settings:</string>
+
+    <string name="textViewLocation">Use GPS, Wi-Fi, and cell networks for location</string>
+
+    <string name="dialogYes">Yes</string>
+    <string name="dialogNo">No</string>
+
+</resources>

@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="2"
+    tools:context="com.example.bhrigu.googlemapsdemo.FragmentMaps">
+
+
+   <com.google.android.gms.maps.MapView
+       android:layout_weight="1.80"
+       android:id="@+id/mapView"
+       android:layout_width="match_parent"
+       android:layout_height="0dp"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight=".20"
+        android:weightSum="2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <TextView
+            android:text= "Latitude: "
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:layout_weight="1"
+            android:id="@+id/textViewLatitude"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:textSize="@dimen/abc_floating_window_z" />
+
+        <TextView
+            android:text= "Longitude: "
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:id="@+id/textViewLongitude"
+            android:gravity="center_vertical"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:textSize="@dimen/abc_floating_window_z" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
