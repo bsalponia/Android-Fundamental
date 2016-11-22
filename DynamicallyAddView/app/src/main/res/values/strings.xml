@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">DynamicallyAddView</string>
+
+    <string name="txt_add">Tap on Button to add row</string>
+    <string name="txt_remove">Tap on Button to remove row</string>
+
+    <string name="btn_add">Add</string>
+    <string name="btn_remove">Remove</string>
+
+
+</resources>
