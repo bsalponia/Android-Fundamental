@@ -1,3 +1,3 @@
 # Android-Fundamentals
 
-Android fundamental's practice
+Some Android fundamental's implementation.
