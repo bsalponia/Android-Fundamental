@@ -14,8 +14,23 @@ public class MyClient {
 
     public static Retrofit getClient() {
         if (retrofit==null) {
+            
+//             HttpLoggingInterceptor logging = new HttpLoggingInterceptor();
+//             logging.setLevel(HttpLoggingInterceptor.Level.BODY);
+//             OkHttpClient.Builder httpClient = new OkHttpClient.Builder();
+            
+//              if (BuildConfig.DEBUG) {
+//                  httpClient.addInterceptor(logging);
+//              }
+            
+//             Gson gson = new GsonBuilder()
+//                     .setLenient()
+//                     .create();
+            
             retrofit = new Retrofit.Builder()
                     .baseUrl(BASE_URL)
+//                     .addConverterFactory(GsonConverterFactory.create(gson))
+//                     .client(httpClient.build())
                     .addConverterFactory(GsonConverterFactory.create())
                     .build();
         }
