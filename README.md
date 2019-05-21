@@ -1,3 +1,3 @@
 # Android-Fundamentals
 
-Some Android fundamental's implementation when I started out as an Android Developer back in 2016 :)
+Some of the Android fundamentals implementation when I started out as an Android Developer back in 2016 :)
